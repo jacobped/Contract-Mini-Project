@@ -1,0 +1,46 @@
+﻿<Window x:Class="HangAMan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HangAMan"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="381.818" Width="789.488">
+    <Grid Background="Bisque">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="273" Margin="486,41,0,0" VerticalAlignment="Top" Width="271" Source="Pictures/10.PNG"/>
+        <Label Background="White" x:Name="labelWord" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,10,0,0" Width="355"/>
+        <Label x:Name="label1" Content="The Word: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Button x:Name="buttonStartGame" Content="Start Game" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="75" Click="buttonStartGame_Click"/>
+        <Button x:Name="buttonA" Content="A" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonB" Content="B" HorizontalAlignment="Left" Margin="55,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonC" Content="C" HorizontalAlignment="Left" Margin="100,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonD" Content="D" HorizontalAlignment="Left" Margin="145,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonE" Content="E" HorizontalAlignment="Left" Margin="190,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonF" Content="F" HorizontalAlignment="Left" Margin="235,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonG" Content="G" HorizontalAlignment="Left" Margin="280,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonH" Content="H" HorizontalAlignment="Left" Margin="325,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonI" Content="I" HorizontalAlignment="Left" Margin="370,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonJ" Content="J" HorizontalAlignment="Left" Margin="415,116,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonK" Content="K" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonL" Content="L" HorizontalAlignment="Left" Margin="55,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonN" Content="N" HorizontalAlignment="Left" Margin="100,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonM" Content="M" HorizontalAlignment="Left" Margin="145,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonO" Content="O" HorizontalAlignment="Left" Margin="190,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonP" Content="P" HorizontalAlignment="Left" Margin="235,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonQ" Content="Q" HorizontalAlignment="Left" Margin="280,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonR" Content="R" HorizontalAlignment="Left" Margin="325,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonS" Content="S" HorizontalAlignment="Left" Margin="370,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonT" Content="T" HorizontalAlignment="Left" Margin="415,161,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonU" Content="U" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonV" Content="V" HorizontalAlignment="Left" Margin="55,206,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonW" Content="W" HorizontalAlignment="Left" Margin="100,207,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonX" Content="X" HorizontalAlignment="Left" Margin="145,206,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonY" Content="Y" HorizontalAlignment="Left" Margin="190,206,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <Button x:Name="buttonZ" Content="Z" HorizontalAlignment="Left" Margin="235,206,0,0" VerticalAlignment="Top" Width="40" Height="40"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="112,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Guess the Word:" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Guess" HorizontalAlignment="Left" Margin="237,269,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
+        <Label x:Name="labelAttemptsLeft" Content="Attempts Left: " HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Width="85"/>
+        <Label Background="White" x:Name="label2" Content="" HorizontalAlignment="Left" Margin="102,77,0,0" VerticalAlignment="Top" Width="38"/>
+    </Grid>
+</Window>
