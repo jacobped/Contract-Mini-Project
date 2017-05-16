@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -96,16 +97,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pictures\1.jpg" />
+    <Resource Include="Pictures\01.jpg" />
     <Resource Include="Pictures\10.PNG" />
-    <Resource Include="Pictures\2.PNG" />
-    <Resource Include="Pictures\3.PNG" />
-    <Resource Include="Pictures\4.PNG" />
-    <Resource Include="Pictures\5.PNG" />
-    <Resource Include="Pictures\6.PNG" />
-    <Resource Include="Pictures\7.PNG" />
-    <Resource Include="Pictures\8.PNG" />
-    <Resource Include="Pictures\9.PNG" />
+    <Resource Include="Pictures\02.PNG" />
+    <Resource Include="Pictures\03.PNG" />
+    <Resource Include="Pictures\04.PNG" />
+    <Resource Include="Pictures\05.PNG" />
+    <Resource Include="Pictures\06.PNG" />
+    <Resource Include="Pictures\07.PNG" />
+    <Resource Include="Pictures\08.PNG" />
+    <Resource Include="Pictures\09.PNG" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Mini-Project\Mini-Project.csproj">
