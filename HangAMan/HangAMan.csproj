@@ -97,8 +97,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pictures\01.jpg" />
-    <Resource Include="Pictures\10.PNG" />
+	<Resource Include="Pictures\00.png" />
+	<Resource Include="Pictures\01.png" />
     <Resource Include="Pictures\02.PNG" />
     <Resource Include="Pictures\03.PNG" />
     <Resource Include="Pictures\04.PNG" />
@@ -107,6 +107,7 @@
     <Resource Include="Pictures\07.PNG" />
     <Resource Include="Pictures\08.PNG" />
     <Resource Include="Pictures\09.PNG" />
+	<Resource Include="Pictures\10.PNG" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Mini-Project\Mini-Project.csproj">
