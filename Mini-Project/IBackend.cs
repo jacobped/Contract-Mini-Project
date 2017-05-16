@@ -12,6 +12,7 @@ namespace Mini_Project
         void Guess(string guess);
         string GetWord();
         int GetGuessAttempts();
+        int GetFailedAttempts();
         int GetAllowedAttempts();
         bool IsGameWon();
         bool IsGameOver();
@@ -36,6 +37,8 @@ namespace Mini_Project
             Contract.Requires(char.IsLower(guess));
             Contract.Ensures((Contract.OldValue(GetGuessAttempts()) +1) == GetGuessAttempts());
             Contract.Ensures(GetGuesses().Last().Equals(guess.ToString()));
+            Contract.Ensures((!GetWord().Contains(guess.ToString()) && Contract.OldValue(GetFailedAttempts()) + 1 == GetFailedAttempts()) ||  
+                (GetWord().Contains(guess.ToString()) && Contract.OldValue(GetFailedAttempts()) == GetFailedAttempts()));
         }
 
         public void Guess(string guess)
@@ -45,6 +48,8 @@ namespace Mini_Project
             Contract.Ensures((Contract.OldValue(GetGuessAttempts()) + 1) == GetGuessAttempts());
             Contract.Ensures(GetWord().Equals(guess) == IsGameWon());
             Contract.Ensures(GetGuesses().Last().Equals(guess));
+            Contract.Ensures((!GetWord().Equals(guess) && Contract.OldValue(GetFailedAttempts()) + 1 == GetFailedAttempts()) ||
+                             (GetWord().Equals(guess) && Contract.OldValue(GetFailedAttempts()) == GetFailedAttempts()));
         }
 
         public string GetWord()
@@ -57,6 +62,12 @@ namespace Mini_Project
         {
             Contract.Ensures(Contract.Result<int>() >= 0);
             Contract.Ensures(GetGuesses().Count() == GetGuessAttempts());
+            return default(int);
+        }
+
+        public int GetFailedAttempts()
+        {
+            Contract.Ensures(Contract.Result<int>() >= 0);
             return default(int);
         }
 
