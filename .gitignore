@@ -16,39 +16,39 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
+**/bld/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
 
 # Visual Studio 2015 cache/options directory
-.vs/
+**/.vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+**/[Tt]est[Rr]esult*/
+**/[Bb]uild[Ll]og.*
 
 # NUNIT
 *.VisualState.xml
-TestResult.xml
+**/TestResult.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
-dlldata.c
+**/[Dd]ebugPS/
+**/[Rr]eleasePS/
+**/dlldata.c
 
 # .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
+**/project.lock.json
+**/project.fragment.lock.json
+**/artifacts/
 **/Properties/launchSettings.json
 
 *_i.c
@@ -71,7 +71,7 @@ artifacts/
 *.log
 *.vspscc
 *.vssscc
-.builds
+**/.builds
 *.pidb
 *.svclog
 *.scc
@@ -80,7 +80,7 @@ artifacts/
 _Chutzpah*
 
 # Visual C++ cache files
-ipch/
+**/ipch/
 *.aps
 *.ncb
 *.opendb
@@ -97,13 +97,13 @@ ipch/
 *.sap
 
 # TFS 2012 Local Workspace
-$tf/
+**/$tf/
 
 # Guidance Automation Toolkit
 *.gpState
 
 # ReSharper is a .NET coding add-in
-_ReSharper*/
+**/_ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
@@ -133,7 +133,7 @@ AutoTest.Net/
 .sass-cache/
 
 # Installshield output folder
-[Ee]xpress/
+**/[Ee]xpress/
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/
@@ -259,7 +259,7 @@ typings/
 _Pvt_Extensions
 
 # Paket dependency manager
-.paket/paket.exe
+**/.paket/paket.exe
 paket-files/
 
 # FAKE - F# Make
