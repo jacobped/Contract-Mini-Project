@@ -1,0 +1,18 @@
+﻿<Window x:Class="SimonSays.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimonSays"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400.299" Width="411.826">
+    <Grid>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Margin="100,109,0,0" VerticalAlignment="Top" Width="78" Height="67" Background="Red" Click="button1_Click"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Margin="98,204,0,0" VerticalAlignment="Top" Width="80" Height="64" Background="#FFFFEE00" Click="button2_Click"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" Margin="203,203,0,0" VerticalAlignment="Top" Width="76" Height="66" Background="#FF4FFF00" Click="button3_Click"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Margin="203,109,0,0" VerticalAlignment="Top" Width="76" Height="67" Background="#FF0724FC" Click="button4_Click"/>
+        <Button x:Name="buttonReplay" Content="Replay" HorizontalAlignment="Left" Margin="98,306,0,0" VerticalAlignment="Top" Width="80" Height="38" Click="buttonReplay_Click"/>
+        <Button x:Name="buttonStart" Content="Start" HorizontalAlignment="Left" Margin="204,306,0,0" VerticalAlignment="Top" Width="75" Height="38" Click="buttonStart_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\bin\Debug\SimonSays.exe.config
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\bin\Debug\SimonSays.exe
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\bin\Debug\SimonSays.pdb
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\SimonSays.csprojResolveAssemblyReference.cache
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\MainWindow.g.cs
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\App.g.cs
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\SimonSays_MarkupCompile.cache
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\SimonSays_MarkupCompile.lref
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\MainWindow.baml
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\SimonSays.g.resources
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\SimonSays.Properties.Resources.resources
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\SimonSays.csproj.GenerateResource.Cache
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\SimonSays.exe
+c:\users\janis\Documents\Visual Studio 2015\Projects\SimonSays\SimonSays\obj\Debug\SimonSays.pdb
+C:\Users\Jacob\Andet\Versionsstyring\Contract-Mini-Project\Opponent Group\SimonSays\bin\Debug\SimonSays.exe.config
+C:\Users\Jacob\Andet\Versionsstyring\Contract-Mini-Project\Opponent Group\SimonSays\obj\Debug\SimonSays.exe
+C:\Users\Jacob\Andet\Versionsstyring\Contract-Mini-Project\Opponent Group\SimonSays\obj\Debug\SimonSays.pdb
