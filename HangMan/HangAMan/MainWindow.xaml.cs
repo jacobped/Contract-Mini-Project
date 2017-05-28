@@ -32,15 +32,16 @@ namespace HangAMan
             InitializeComponent();
             pictures = new List<BitmapImage>(11);
             string path = @".\Pictures\";
+            string currentDirectory = Directory.GetCurrentDirectory();
             foreach (var file in Directory.GetFiles(path, "*.png", SearchOption.TopDirectoryOnly))
             {
-                pictures.Add(new BitmapImage(new Uri(file)));
+                pictures.Add(new BitmapImage(new Uri(currentDirectory + file.TrimStart('.'))));
             }
         }
 
         private void buttonStartGame_Click(object sender, RoutedEventArgs e)
         {
-            //_backend = new ;
+            _backend = new Backend();
             var scenario = GenerateScenario();
             _backend.Setup(scenario.Item1, scenario.Item2);
             string word = _backend.GetWord();
@@ -56,7 +57,7 @@ namespace HangAMan
 
         private Tuple<string, int> GenerateScenario()
         {
-            return null;
+            return new Tuple<string, int>("test", 4); // TODO: Return a random scenario set. 
         }
 
         private void UpdateAttemptsLeft()
